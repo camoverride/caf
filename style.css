@@ -1,0 +1,144 @@
+/* Fonts & Colors */
+body {
+  font-family: 'Inter', sans-serif;
+  color: #2e2e2e;
+  background-color: #fcfbf9;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #a67833;
+  margin-bottom: 16px;
+}
+
+h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 12px;
+  margin-bottom: 8px;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #a67833;
+}
+
+/* Header */
+.topbar {
+  background: #ffffff;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e0e0e0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.logo span {
+  color: #a67833;
+}
+
+.nav a {
+  margin-left: 20px;
+  font-size: 0.85rem;
+  color: #333;
+}
+
+/* Hero */
+.hero-text {
+  text-align: center;
+  padding: 80px 20px 40px;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Cards */
+.cards {
+  display: flex;
+  gap: 30px;
+  padding: 40px 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #ffffff;
+  width: 360px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 6px 18px rgba(0,0,0,0.05);
+  transition: box-shadow 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0px 10px 24px rgba(0,0,0,0.08);
+}
+
+.card img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+}
+
+
+/* Quote Section */
+.quote {
+  background: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.quote blockquote {
+  font-family: 'Georgia', serif;
+  font-style: italic;
+  font-size: 1.2rem;
+  color: #5c4c36;
+  max-width: 800px;
+  margin: auto;
+}
+
+.founder {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.initials {
+  background: #a67833;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+}
+
+/* Footer */
+footer {
+  background-color: #4f4c3b;
+  color: #f7f6f2;
+  text-align: center;
+  padding: 30px 20px;
+  font-size: 0.9rem;
+}
